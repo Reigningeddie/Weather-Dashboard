@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header class="jumbotron">
+        <h1 class="title">Weather Dashboard</h1>
+        </header>  
+    <div class="search">
+        <input type="text" class="inputValue" placeholder="City Name"></input>
+        <input type="submit" value="Search" class="button">
+        </div>
+    <div class="card" style="width: 18rem;">
+        <ul class="list-group list-group-flush">
+            <button class="list-group-item">Tucson</button>
+            <button class="list-group-item">San Diego</button>
+            <button class="list-group-item">California</button>
+        </ul>
+        </div>
+    <div class="cardWeather" style="width: 40rem;">
+        <div class="card-body">
+            <h5 class="cityName">City Name</h5>
+            <p class="temp">Temperature:</p>
+            <p class="humidity">Humidity:</p>
+            <p class="windSpeed">Wind Speed:</p>
+            <p class="uvIndex">UV Index:</p>
+        </div>
+        </div>
+    <div class="container">
+        <div class="row">
+            <div class="lg-col col-12 days">5 day forecast</div>
+        </div>
+
+</body>
+<script src="script.js"></script>
+</html>

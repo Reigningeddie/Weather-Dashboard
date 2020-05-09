@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.jumbotron {
+  text-align: center;
+  color: white;
+  background-color: #3b3b3b;
+  height: 100px;
+}
+
+input[type="text"]{
+  background: #e7e7e7;
+  width: 215px;
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+}
+input[type="submit"]{
+  background: #266bff;
+  height: 40px;
+  width: 80px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+.search {
+  position: absolute;
+  margin: 0px;
+  height: 500px;
+  width: 300px;
+  background-color: #b1b1b1;
+}
+.card { 
+  position: absolute;
+  margin: 100px 0px;
+  background-color: #adadad;
+}
+.cardWeather {
+  position: absolute;
+  border: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  margin: 0px 320px;
+}
+.container {
+  position: absolute;
+  margin: 275px 320px;
+}
+
+.cities {
+  height: 400px;
+  background-color: #b1b1b1;
+}
+
+.weather {
+  height: 250px;
+}
+
+.days {
+  height: 250px;
+}
